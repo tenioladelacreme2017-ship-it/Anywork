@@ -21,7 +21,14 @@ WHO IS IT FOR?
 Anywork is for everyone, it is for busy professionals and enterprneurs that can't find the time to commit to small chores, it is for students that would rather spend their time on their studies, it is for families with large volumes of laundry or big living spaces, it is for the elderly or physically limited individuals. it is also for local service providers that are looking to start out, build or expand their client base.
 
 KEY FEATURES 
-1. user profiles
-2. Location based matching
-3. Order request and management
-4. 
+1. user profiles: both users and service providers can register, set up their profiles, and manage their accounts.
+2. Location based matching: users are automatically matched with nearby service providers using GPS.
+3. Order request and management: customers can request laundry pickup, specify clothing type, book cleaning services, and set delivery preferences.
+4. Real time order tracking: users can track pickup, washing, and delivery progress.
+5. Chat and call functionality: in-app communication between users and providers.
+6. Secure payment integration: users pay online (via Paystack or Flutterwave), and providers get credited after completion.
+7. Ratings & Reviews: helps ensure consistent service quality.
+8. Order History & Receipts:users can view past transactions and download receipts.
+9. Notifications: reminders for pickup times and delivery updates.
+
+   

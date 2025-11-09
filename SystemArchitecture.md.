@@ -11,3 +11,37 @@ Architecture Components
   - User login/signup
   - Order placement and tracking
   - Notifications and order status updates
+
+2. Backend
+- Processes all requests and connects the frontend to the database
+- Technologies: Node.js with Express.js
+- Handles:
+  - Authentication and authorization
+  - Order management
+  - Payment integration
+  - Notification and messaging system
+
+3. Database
+- Stores users, orders, payments, and provider data
+- Technologies: MongoDB
+- Collections:
+  - Users
+  - ServiceProviders
+  - Orders
+  - Reviews
+  - Payments
+
+Data Flow
+
+1. User places an order from the app  
+2. Backend verifies and stores the order  
+3. Nearby providers are notified  
+4. Provider accepts and updates the status  
+5. User is notified at every stage  
+6. Payment is processed after completion  
+7. Order record stored for both users and providers  
+
+System Diagram (Conceptual)
+
+Frontend ↔ Backend ↔ Database  
+    ↘ APIs (Payments, Maps, Notifications)
